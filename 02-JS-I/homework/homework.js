@@ -131,42 +131,42 @@ function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-  var alcuadrado = num ^ 2;
+  var alcuadrado = num ** 2;
   return alcuadrado;
 }
 
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
-  var alcubo = num ^ 3;
+  var alcubo = num ** 3;
   return alcubo;
 }
 
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
-  var alexponent = num ^ exponent;
+  var alexponent = num ** exponent;
   return alexponent;
 }
 
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
-  var cercanoentero = math.round (num);
+  var cercanoentero = Math.round(num);
   return cercanoentero;
 }
 
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-  var cercanoarriba = math.ceil (num);
+  var cercanoarriba = Math.ceil(num);
   return cercanoarriba;
 }
 
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-  var random = math.random();
+  var random = Math.random();
   return random;
 }
 
@@ -203,7 +203,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return ('Hola ' + Martin + '!');
+  return ('Hola ' + nombre + '!');
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
@@ -234,7 +234,7 @@ function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
-  var conversion = euro / 1.20;
+  var conversion = euro * 1.20;
   return conversion;
 }
 

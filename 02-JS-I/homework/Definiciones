@@ -1,0 +1,19 @@
+## Instrucciones
+
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+ * Variables
+ * Strings
+ * Funciones (argumentos, `return`)
+ * Declaraciones `if`
+ * Valores booleanos (`true`, `false`)
+
+Variables - son elemntos que a los que asignamos un valor cualquiera, y el lenguaje de programación utiliza ese valor para generar resultados.
+
+Strings - es un tipo de datos definido por letras o texto que van entre comillas, cualquier valor puesto entre comillas se convierte en un string.
+
+Funciones - son como mini programas que estan dentro de un codigo, estas siempre tiene que "alimentarse" de valores (argumentos) y te generarán resultados (returns).
+
+Declaraciones - la declaración "if" es como una aduana, verifican que se cumpla con los requerimentos establecidos, si estos cumplen se canalizan para un lugar en especifico, caso contrario se rechaza y no va para ningun sitio.
+
+Valores booleanos - son valores true o false, que muchas veces nos indican si seguimos para adelante o no avanzamos.
