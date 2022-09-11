@@ -1,0 +1,14 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* `for`
+* `&&`, `||`, `!`
+
+for - funciona como una maquina que fabrica caramelos, solo tienes que decirle: 
+  1.Cuanto tiempo quieres que trabaje. 
+  2.Cuantos caramelos quieres que fabrique y,
+  3.Cada cuanto tiempo quieres que te de los caramelos
+  por ejemplo le dices, fabricame 20 caramelos cada 2 minutos y la pones a trabajar 1 hora.
+  Al finalizar la hora tendras 600 caramelos.
+
+ &&, ||, ! - son como reglas que se tienen que seguir estrictamente. Por ejemplo cuando vas a la escuela, te dicen puedes usar pantalon o falda (||). Para que puedas hacer tu examen tienes que tener lapiz y borrador (&&). Por ultimo cuando tus maestros te dicen no puedes jugar futbol en el descanso, haces lo opuesto y te pones a jugar con tus compañeros (!).
+
